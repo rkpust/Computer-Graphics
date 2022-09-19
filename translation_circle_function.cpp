@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
     float r,x,y,x0,y0,pk,xc,yc,tx,ty;
     int i;
 
@@ -28,4 +27,5 @@ int main()
 
     getch();
     closegraph();
+    return 0;
 }
