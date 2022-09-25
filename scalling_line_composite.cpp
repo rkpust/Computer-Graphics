@@ -40,7 +40,7 @@ int main(){
 	//window size measurement and initialization
 	DWORD screenWidth=GetSystemMetrics(SM_CXSCREEN);
 	DWORD screenHeight=GetSystemMetrics(SM_CYSCREEN);
-	initwindow(screenWidth,screenHeight,"",-20,-10);
+	initwindow(screenWidth,screenHeight,"",-3,-3);
 	
 	//graph plotting function call
 	plotgraph(screenWidth,screenHeight);
